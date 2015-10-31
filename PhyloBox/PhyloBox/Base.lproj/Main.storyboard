@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A299l" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="k8B-Aa-aEC">
+    <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="dj0-QI-biY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1cD-o2-Oak">
+                                        <rect key="frame" x="11" y="10" width="300" height="440"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P2R-gq-1St">
+                                        <rect key="frame" x="20" y="8" width="290" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="   Label">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sov-r5-GwA">
+                                        <rect key="frame" x="20" y="26" width="291" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bK0-B9-YWb">
+                                        <rect key="frame" x="11" y="424" width="300" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Yem-Q6-4W4">
+                                        <rect key="frame" x="11" y="52" width="300" height="205"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9C0-Vb-6cW">
+                                        <rect key="frame" x="243" y="16" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oXU-tJ-oEC">
+                                        <rect key="frame" x="272" y="16" width="28" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9pl-be-PXz">
+                                        <rect key="frame" x="0.0" y="52" width="320" height="205"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="D9o-om-XkI" kind="modal" identifier="ShowDetail" modalTransitionStyle="flipHorizontal" id="AfV-BY-0pL"/>
+                                        </connections>
+                                    </button>
+                                    <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="9xA-Zr-pHX">
+                                        <rect key="frame" x="11" y="257" width="299" height="166"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" id="jxM-TR-exL">
+                                <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem systemItem="action" id="smM-I5-QNA">
+                                        <connections>
+                                            <action selector="btnShareClick:" destination="vXZ-lx-hvc" id="VFI-Fp-a2X"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="Ai2-D2-u3z">
+                                        <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="vKp-1x-0BC">
+                                            <rect key="frame" x="45" y="7" width="224" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <color key="minimumTrackTintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="maximumTrackTintColor" white="0.30474452549999997" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="thumbTintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="sliderDoneDrag:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="A7f-qv-iLk"/>
+                                            </connections>
+                                        </slider>
+                                    </barButtonItem>
+                                    <barButtonItem image="notfav.png" id="UBs-7R-L2f">
+                                        <connections>
+                                            <action selector="btnFavClick:" destination="vXZ-lx-hvc" id="IcR-EN-IlI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.19166286499999999" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="fmN-hH-iUu">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="Wiki" id="xRm-ui-Zu6">
+                            <connections>
+                                <action selector="btnGotoCardWebClicked:" destination="vXZ-lx-hvc" id="L50-cA-ftT"/>
+                            </connections>
+                        </barButtonItem>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="GlV-dq-UFo">
+                            <rect key="frame" x="58" y="8" width="205" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="View All"/>
+                                <segment title="View Favorites"/>
+                            </segments>
+                            <connections>
+                                <action selector="btnViewFavClick:" destination="vXZ-lx-hvc" eventType="valueChanged" id="dVZ-lg-8JJ"/>
+                            </connections>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="rnj-nD-5Bf">
+                            <connections>
+                                <segue destination="Az7-tF-MVC" kind="modal" identifier="SearchCards" modalTransitionStyle="flipHorizontal" id="wVW-UH-fq2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnFav" destination="UBs-7R-L2f" id="XE1-Pz-9ei"/>
+                        <outlet property="btnViewFav" destination="GlV-dq-UFo" id="zHd-TD-AhT"/>
+                        <outlet property="lblCardContent" destination="9xA-Zr-pHX" id="8fI-xj-Knc"/>
+                        <outlet property="lblCardLatinName" destination="Sov-r5-GwA" id="b5t-Ie-r7d"/>
+                        <outlet property="lblCardName" destination="P2R-gq-1St" id="j4e-f5-mlj"/>
+                        <outlet property="lblCardTemperature" destination="bK0-B9-YWb" id="zdp-vD-B1T"/>
+                        <outlet property="picCardBackground" destination="1cD-o2-Oak" id="5I0-bX-Bz8"/>
+                        <outlet property="picCardGraphic" destination="Yem-Q6-4W4" id="qKG-0t-ldw"/>
+                        <outlet property="picCardHierarchy" destination="oXU-tJ-oEC" id="Jcw-Cg-iHy"/>
+                        <outlet property="picCardSize" destination="9C0-Vb-6cW" id="bcv-Bd-BdE"/>
+                        <outlet property="searchDisplayController" destination="XSn-d6-8Jh" id="kBq-Vc-h3K"/>
+                        <outlet property="slideCard" destination="vKp-1x-0BC" id="9PX-nQ-kaH"/>
+                        <outlet property="viewCard" destination="dj0-QI-biY" id="uHb-vU-7XX"/>
+                        <segue destination="g5p-q2-rJZ" kind="push" identifier="GotoCardWeb" id="T4u-wt-5Il"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="XSn-d6-8Jh">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="wAw-iX-3v7"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="q3d-oP-Wsi"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="6BC-Nr-2Vr"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="ZHb-ry-dkU"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="945" y="-37"/>
+        </scene>
+        <!--Detail Table View Controller-->
+        <scene sceneID="2nL-1e-zof">
+            <objects>
+                <tableViewController id="Otn-W9-RzB" customClass="DetailTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="P2C-N6-EWQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="CsK-Fg-gB6">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="Otn-W9-RzB" id="9od-J1-HE8"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CardCell" rowHeight="100" id="bMU-LR-GfY" customClass="DetailCardTableViewCell">
+                                <rect key="frame" x="0.0" y="130" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bMU-LR-GfY" id="eGE-SI-Vwn">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="26o-nH-XsT">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="99"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EXw-eV-UJk">
+                                            <rect key="frame" x="168" y="0.0" width="152" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Name">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latin Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rmw-yN-keE">
+                                            <rect key="frame" x="168" y="20" width="152" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terrian" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cok-8z-uTP">
+                                            <rect key="frame" x="168" y="62" width="152" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1qK-Oa-uq4">
+                                            <rect key="frame" x="168" y="82" width="152" height="17"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Cgw-7n-j9O">
+                                            <rect key="frame" x="104" y="0.0" width="28" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="gET-Xf-umW">
+                                            <rect key="frame" x="132" y="0.0" width="28" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="lblCardName" destination="EXw-eV-UJk" id="YXC-5B-R3e"/>
+                                    <outlet property="lblLatinName" destination="rmw-yN-keE" id="Jby-Po-5sS"/>
+                                    <outlet property="lblTemperature" destination="1qK-Oa-uq4" id="E80-8D-lOC"/>
+                                    <outlet property="lblTerrian" destination="cok-8z-uTP" id="sbX-zP-FkR"/>
+                                    <outlet property="picCardImage" destination="26o-nH-XsT" id="8eF-Ui-Yte"/>
+                                    <outlet property="picCardSize" destination="Cgw-7n-j9O" id="T9n-h1-vFs"/>
+                                    <outlet property="picFoodHierarchy" destination="gET-Xf-umW" id="6ff-rZ-YuP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Otn-W9-RzB" id="gkh-l0-lKa"/>
+                            <outlet property="delegate" destination="Otn-W9-RzB" id="bXz-ku-4vs"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Btf-nz-kaz">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="YpJ-g3-PRa">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Zji-tb-Y0N">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="seB-hT-cj3" kind="modal" id="nHA-fu-od4"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="l8f-9p-8Oy">
+                            <connections>
+                                <action selector="btnCancelClick:" destination="Otn-W9-RzB" id="57a-zV-FKP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="lblTitle" destination="Btf-nz-kaz" id="x3A-ii-5Mz"/>
+                        <outlet property="searchBar" destination="CsK-Fg-gB6" id="pha-ju-rJt"/>
+                        <outlet property="searchDisplayController" destination="BHG-dd-kRa" id="xiD-K1-Rhy"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jv7-SZ-A0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="BHG-dd-kRa">
+                    <connections>
+                        <outlet property="delegate" destination="Otn-W9-RzB" id="hQy-tO-yq6"/>
+                        <outlet property="searchBar" destination="CsK-Fg-gB6" id="ddD-gw-FpX"/>
+                        <outlet property="searchContentsController" destination="Otn-W9-RzB" id="RZi-Wk-60p"/>
+                        <outlet property="searchResultsDataSource" destination="Otn-W9-RzB" id="LwD-i3-PE4"/>
+                        <outlet property="searchResultsDelegate" destination="Otn-W9-RzB" id="68S-EZ-0Sg"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1910" y="367"/>
+        </scene>
+        <!--Web Page View Controller - Wiki Page-->
+        <scene sceneID="6Om-Bn-tx5">
+            <objects>
+                <viewController id="g5p-q2-rJZ" customClass="WebPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ldE-fe-N1o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="tm4-7B-ZVJ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="uci-u1-AWQ">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="hlK-yo-7Oq">
+                                        <connections>
+                                            <action selector="goBack" destination="tm4-7B-ZVJ" id="TBQ-vc-Qbz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Forward" id="dCv-JJ-alP">
+                                        <connections>
+                                            <action selector="goForward" destination="tm4-7B-ZVJ" id="OVo-M3-Yd9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JDw-7D-79V"/>
+                                    <barButtonItem systemItem="refresh" id="KrN-oB-nHW">
+                                        <connections>
+                                            <action selector="reload" destination="tm4-7B-ZVJ" id="aVz-Vl-gdH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="stop" id="W8g-5P-GYl">
+                                        <connections>
+                                            <action selector="stopLoading" destination="tm4-7B-ZVJ" id="zag-51-Z5U"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wiki Page" id="8QW-NF-KBW"/>
+                    <connections>
+                        <outlet property="webTitle" destination="8QW-NF-KBW" id="CnX-x6-Lbj"/>
+                        <outlet property="webView" destination="tm4-7B-ZVJ" id="EE9-mY-lWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zv0-o2-AQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3334" y="-542"/>
+        </scene>
+        <!--Search Table View Controller - Search cards below-->
+        <scene sceneID="lKD-Ec-0TS">
+            <objects>
+                <tableViewController id="jkZ-mg-hCR" customClass="SearchTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="2nX-gd-xj4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search name, latin name, temperature, size, food chain#" id="mUm-M6-IBe">
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="jkZ-mg-hCR" id="aZp-tu-oy9"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CardCell" rowHeight="100" id="J2a-vZ-6zS" customClass="DetailCardTableViewCell">
+                                <rect key="frame" x="0.0" y="130" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J2a-vZ-6zS" id="4OF-xU-fTq">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="jkZ-mg-hCR" id="D20-1t-9eM"/>
+                            <outlet property="delegate" destination="jkZ-mg-hCR" id="cr9-4c-Edp"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Search cards below" id="2HN-Ea-FPx">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="PM3-eL-zv7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Gp9-Uq-cso">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="seB-hT-cj3" kind="modal" id="alF-EV-CKx"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="9a8-PO-OKq">
+                            <connections>
+                                <action selector="btnCancelClick:" destination="jkZ-mg-hCR" id="XQe-GR-T8p"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="searchBar" destination="mUm-M6-IBe" id="Pvg-Wm-ph6"/>
+                        <outlet property="searchDisplayController" destination="ovU-RX-iLs" id="iSN-s8-Wlq"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pvC-Nz-RRV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="ovU-RX-iLs">
+                    <connections>
+                        <outlet property="delegate" destination="jkZ-mg-hCR" id="sKw-wa-P8x"/>
+                        <outlet property="searchBar" destination="mUm-M6-IBe" id="oAY-Vd-1LL"/>
+                        <outlet property="searchContentsController" destination="jkZ-mg-hCR" id="wNl-4g-IfZ"/>
+                        <outlet property="searchResultsDataSource" destination="jkZ-mg-hCR" id="QfF-oE-ldW"/>
+                        <outlet property="searchResultsDelegate" destination="jkZ-mg-hCR" id="Sq8-d5-OEB"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1891" y="-625"/>
+        </scene>
+        <!--Info View Controller - Scroll to view-->
+        <scene sceneID="P1v-L3-aec">
+            <objects>
+                <viewController id="C8C-Gs-riW" customClass="InfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H00-ZL-oaD">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" keyboardDismissMode="onDrag" id="FIA-7q-G1s">
+                                <rect key="frame" x="320" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="HOF-Rk-SzN">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond.bmp" id="pPA-zn-SiG">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="PLL-fp-LQf">
+                                                <rect key="frame" x="20" y="51.000001883170761" width="280" height="433"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Age:">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> 
+8 years old and up
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Game duration:">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> 
+approximately 20 to 30 mins
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Number of players:">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> 
+2
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Deck requirements: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+Each player will need a deck of about 20 to 25 cards, which should include one HOME card each, as well as a mixture of SPECIES and EVENT cards. These decks you can build yourself, or you can use a “starter” deck such as the one you have bought (or one of several that you can download at phylogame.org.) for these “starter” decks, you can take out the two HOME cards, and shuffle the rest between the two players.
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Quick instructions: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+Two players sit across from one another at a table. At the start of the game, each player places his or her HOME card on the table. HOME cards should be placed adjacent to one another, facing in opposite directions. Each player’s remaining cards must be kept face-down in a pile (called the PICK-UP pile). Players should also reserve a spot on the table for their discarded cards (called the DISCARD pile).
+Players draw 5 cards from their respective PICK-UP piles to form their hand. The PHYLO Ecosystem Game is played in turns, and players may play “rock, paper, scissors” to determine who will go first. 
+On each turn, a player will draw 1 new card from their PICK-UP pile and may take 3 of the following ACTIONS (any combination)
+-play a card from your hand onto the table (SPECIES or EVENT card-see Playing a Card)
+-drop one card from your hand into a Discard Pile and PICK UP three new cards.
+-move a SPECIES CARD (see Moving a Card)
+-passing (essentially to end their turn)
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Playing a card: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+It is important that players continue to place their own cards on the table “facing them” (and opposite to their opponent). This allows players to keep track of their own cards. Note that players may play cards adjacent to both their own ort their opponent’s cards.
+SPECIES cards may only be placed next to cards which share at least ONE common CLIMATE and ONE common TERRAIN. Species which share a common CLIMATE and TERRIAN are said to be environmentally COMPATIBLE. 
+SPECIES cards must also be food chain COMPATIBLE. FOODCHAIN #1 cards can be played anywhere, so long as they are placed in an environmentally COMPATIBLE manner. Note that any FOODCHAIN#1 card may be played adjacent to a HOME card.
+In general, FOODCAIN#2 cards (a herbivore for instance) must be placed adjacent to at least one FOODCHAIN#1 card. FOODCHAIN#3 cards which are carnivores (meat-eating, as indicated by a red circle) may be played next to at least one FOODCHAIN #2 prey of equal or smaller SCALE (i.e. it can’t eat something bigger than itself, unless specified in the card text.) Omnivores (FOODCAIN#3, brown circle) may be played next to species which are FOODCHAIN#2 (meat) or FODCHAIN#1 (plant). It’s also a god idea to read the card text (especially if the diet is a black circle), as specific instructions regarding FOODCHAIN connection may be provided (i.e. the organism has exceptional diet needs).
+EVENT cards maybe played as directed by instructions on the card. Unless otherwise specified, EVENT cards take immediate effect, and are then removed from the table and placed in the DISCARD pile. 
+EVENT cards will often result in cards that are INCOMPATIBLE to all adjacent cards (i.e.no shared CLIMATES or TERRAINS, and no proper FOODCAIN connection). If so, the affected player has only their next turn (i.e. next 3 ACTIONS) to react to an EVENT before any of these newly INCOMPATIBLE SPECIES cards are removed. There players may choose actions to play new cards that replenish broken food chains, and/or MOVE affected cards to COMPATIBLE areas on the table. Any cards that cannot be saved after this reaction turn must be placed in the DISCARD pile. 
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Moving a card: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+MOVE# (located in the card text) indicates how many places a species may move per action. Species can be moved up, down, left, or right, and must be played in an open spot, adjacent to at least one other COMPATIBLE card on the table. Birds, insects, and other organisms that travel by FLIGHT may also move along a diagonal path. Like before with EVENT cards, any card made INCOMPATIBLE due to a MOVE is only discarded if the card is still INCOMAPTIBLE after the affected player has been given his/her turn to react. 
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Ending the game: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+When a player picks up his/her last card from their PICK-UP pile, then that player will finish his/her turn, and their opponent will then also play their one last turn. At that point, the game ends, UNLESS and EVENT card or a MOVE is played resulting in INCOMPATIBLE cards during that last turn-essentially, when this happens, the other players always has the right to react by getting one extra turn. In the end, players will then add up all points that remain on the table: player with the most points wins.
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Keywords: ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">
+Note that some cards will have special keywords. These can be ignored or played as described at the website’s glossary (phylogame.org/glossary). For instance, the INVASIVE, the INVASIVE keyword, allows a player to play a card directly on top of (and thereby discard) a similar SPECIES card.
+
+
+
+
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="28.299999237060547"/>
+                                                                    <textTab alignment="left" location="56.650001525878906"/>
+                                                                    <textTab alignment="left" location="85"/>
+                                                                    <textTab alignment="left" location="113.34999847412109"/>
+                                                                    <textTab alignment="left" location="141.69999694824219"/>
+                                                                    <textTab alignment="left" location="170.05000305175781"/>
+                                                                    <textTab alignment="left" location="198.39999389648438"/>
+                                                                    <textTab alignment="left" location="226.75"/>
+                                                                    <textTab alignment="left" location="255.10000610351562"/>
+                                                                    <textTab alignment="left" location="283.45001220703125"/>
+                                                                    <textTab alignment="left" location="311.79998779296875"/>
+                                                                    <textTab alignment="left" location="340.14999389648438"/>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phylo Game Rule" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MxT-10-yXI">
+                                                <rect key="frame" x="0.0" y="11" width="320" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="textColor" red="0.0" green="1" blue="8.2014513733241756e-05" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="C6Z-S7-kUq">
+                                        <rect key="frame" x="320" y="0.0" width="320" height="504"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="platium.bmp" id="YVo-mG-GaO">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="wgn-Tk-Hec">
+                                                <rect key="frame" x="20" y="28.0000001043081" width="280" height="448"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="What is this phylo thing?">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">Well, it’s an online initiative aimed at creating a Pokemon card type resource but with real creatures on display in full “artistic” wonder. Not only that – but we plan to have the scientific community weigh in to determine the content on such cards, as well as folks who love gaming to try and design interesting ways to use the cards. Then to top it all off, members of the teacher community will participate to see whether these cards have educational merit. Best of all, the hope is that this will all occur in a </string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="non-commercial-open-access-open-source-because-basically-this-is-good-for-you-your-children-and-your-planet">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Italic"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content"> sort of way.
+
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="How does it work?">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.80392156862745101" green="0.80392156862745101" blue="0.80392156862745101" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">This website will basically act as a hub, where first and foremost, people can get a hold of the cards and play with them. However, just as important, it will be a place to exhibit potential leads that are interesting and have appeared to have gain some momentum. These ideas have, and will likely, occur at our </string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="forum">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Times-Roman"/>
+                                                            <url key="NSLink" string="http://phylomon.forumotion.net/"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" (do sign up!), but may be picked up when we periodically scan the web for keywords like “">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="phylomon">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Times-Roman"/>
+                                                            <url key="NSLink">
+                                                                <string key="string">http://www.google.com/search?q=phylomon&amp;hl=en&amp;client=firefox-a&amp;hs=8s3&amp;tbo=1&amp;rls=org.mozilla:en-US:official&amp;output=search&amp;tbs=rltm:1&amp;ei=rQq2S_i_IYeGswPx5Y2XBQ&amp;sa=X&amp;oi=tool&amp;resnum=1&amp;ct=tlink&amp;ved=0CBQQpwU</string>
+                                                            </url>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="” or “">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="phylo project">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Times-Roman"/>
+                                                            <url key="NSLink">
+                                                                <string key="string">http://www.google.com/search?hl=en&amp;client=firefox-a&amp;hs=rDj&amp;tbo=1&amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;tbs=rltm%3A1&amp;q=%22phylo+project%22&amp;aq=f&amp;aqi=&amp;aql=t&amp;oq=&amp;gs_rfai=</string>
+                                                            </url>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">”
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">Essentially, Phylo has been working because people care about the idea and are curious about the issue of biodiversity. In other words, all content produced in this project “happens” because individuals and their communities contribute their part. This could be through submission of imagery, weighing in on how the games are played, fact checking the science, providing branding help, writing code to make the website better, and/or bringing in their expertise to expand the scope and media capabilities of the project. It could also be through just the simple act of telling their friends about the project.
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="18" tailIndent="468" minimumLineHeight="13.5" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Should the artwork be a certain style? Should it be realistic or cartoony?">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">We’re lucky enough to already have many different types of images in our submissions’ pools, and therefore have taken the opportunity to test the images on children from ages 6 to ages 16 (our lab routinely host science field trips as well as conferences). Basically, from this polling, we have determined that students are generally most happy with a variety of different styles of artwork. In fact the only clear specific preferences were that the images had good colours, and that they were also polished as well as indicative of obvious artistic talent. In other words, if you have an image – just submit it since you never know!</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="11" name="TimesNewRomanPSMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" tailIndent="468" lineHeightMultiple="1.0791666666666666" defaultTabInterval="21">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="HDx-nX-rg4">
+                                        <rect key="frame" x="640" y="0.0" width="320" height="504"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold.bmp" id="dPJ-n4-0V0">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhyloBox" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lNO-4n-Yel">
+                                                <rect key="frame" x="20" y="20" width="280" height="35"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <color key="textColor" red="0.47195701000126755" green="1" blue="0.48062830557200431" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0VA-IX-9Mh">
+                                                <rect key="frame" x="12" y="43" width="153" height="384"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                                <string key="text">Establisher:
+Developer:
+Other support:</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zig-oi-oTf">
+                                                <rect key="frame" x="173" y="43" width="134" height="385"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                                <string key="text">Dr. David Ng.
+Tony, John
+Dison</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t6V-hX-7mj">
+                                                <rect key="frame" x="20" y="436" width="280" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Special thanks to">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="15" name="TrebuchetMS"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" lineHeightMultiple="1.0791666666666666" defaultTabInterval="36"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" Dr. David Ng’s ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="15" name="TrebuchetMS-Bold"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" lineHeightMultiple="1.0791666666666666" defaultTabInterval="36"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="support">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <font key="NSFont" size="15" name="TrebuchetMS"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="8" lineHeightMultiple="1.0791666666666666" defaultTabInterval="36"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scroll to view" id="WAE-gL-WeU">
+                        <barButtonItem key="leftBarButtonItem" title="Phylogame.org" id="MlE-mY-VKR">
+                            <connections>
+                                <action selector="btnGotoPhyloWebpageClicked:" destination="C8C-Gs-riW" id="7md-lI-vYM"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="MAW-KD-vRw">
+                            <connections>
+                                <action selector="btnDone:" destination="C8C-Gs-riW" id="S5U-5A-sT9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="960" height="568"/>
+                    <connections>
+                        <outlet property="scrollView" destination="FIA-7q-G1s" id="dlS-bb-ceu"/>
+                        <segue destination="g5p-q2-rJZ" kind="push" identifier="GotoPhyloPage" id="Eis-ZM-G1x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4d0-f2-03C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2973" y="362"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Uf-re-w9l">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k8B-Aa-aEC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GMA-Zp-KlN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="OTb-99-aNb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wa3-Jx-BSr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="-44"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pfe-di-OZC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Az7-tF-MVC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bR0-u3-Qu7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jkZ-mg-hCR" kind="relationship" relationship="rootViewController" id="Xk3-ps-2de"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHo-aB-8I2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="-625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hAj-SL-AqT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D9o-om-XkI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mma-pv-qrk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Otn-W9-RzB" kind="relationship" relationship="rootViewController" id="gBC-4l-BeV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWk-CK-Uue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="367"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JVv-Zc-uv7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="seB-hT-cj3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="42z-E7-mSK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="VAu-Qf-Mwi">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="1" blue="8.2014513730000005e-05" alpha="1" colorSpace="calibratedRGB"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="C8C-Gs-riW" kind="relationship" relationship="rootViewController" id="gI4-ef-TBy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4w-eR-LNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2483" y="362"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond.bmp" width="320" height="506"/>
+        <image name="gold.bmp" width="320" height="506"/>
+        <image name="notfav.png" width="30" height="30"/>
+        <image name="platium.bmp" width="320" height="506"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="T4u-wt-5Il"/>
+        <segue reference="alF-EV-CKx"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.0" green="1" blue="8.2014513730000005e-05" alpha="1" colorSpace="calibratedRGB"/>
+</document>
